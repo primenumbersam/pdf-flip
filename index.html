@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to Image + 3D Bookshelf + Page Flip</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header class="neo-header">
+        <h1>PDF-to-Flip BookShelf</h1>
+    </header>
+
+    <main>
+        <section class="intro-section">
+            <div class="neo-box">
+                <h2>What is this?</h2>
+                <p>
+                    This is a <strong>3D Virtual Bookshelf</strong> showcasing static PDF documents converted into
+                    interactive flipbooks.
+                    <br>
+                    It uses <code>pdf2image</code> for processing and <code>page-flip</code> for the reading experience.
+                </p>
+                <div class="tags">
+                    <span class="neo-tag">Python</span>
+                    <span class="neo-tag">CSS 3D</span>
+                    <span class="neo-tag">JS Flipbook</span>
+                </div>
+            </div>
+
+            <div class="neo-box description">
+                <h2>How to Check?</h2>
+                <p>CLICK a book on the shelf below to open the viewer. Enjoy the tactile feel of turning pages!</p>
+            </div>
+        </section>
+
+        <section class="shelf-section">
+            <div class="bookshelf-container">
+                <div class="shelf" id="shelf">
+                    <!-- Books will be injected here by script.js -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="neo-footer">
+        <p>Inspired by <strong>Neo-Brutalism</strong> Style</p>
+        <p>2026 © <a href="https://gitsam.com/">GITSAM</a></p>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
