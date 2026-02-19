@@ -14,6 +14,13 @@
         "pages": 4
     },
     {
+        "id": "my-poem",
+        "title": "My Poem",
+        "cover": "pdf-image/my-poem/page-01.jpg",
+        "folder": "pdf-image/my-poem/",
+        "pages": 3
+    },
+    {
         "id": "부부의 세계 - 사랑 자유 그리고 불균",
         "title": "부부의 세계   사랑 자유 그리고 불균",
         "cover": "pdf-image/부부의 세계 - 사랑 자유 그리고 불균/page-01.jpg",
