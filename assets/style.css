@@ -1,4 +1,8 @@
 /* Global Styles - Neo Brutalism */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 :root {
     --bg-color: #fdfdfd;
     --primary-color: #FFDE59;
@@ -65,7 +69,7 @@ h3 {
     box-shadow: var(--shadow-offset) var(--shadow-offset) 0 var(--border-color);
     padding: 1.5rem;
     flex: 1;
-    min-width: 300px;
+    min-width: min(100%, 300px);
     transition: transform 0.2s;
 }
 
