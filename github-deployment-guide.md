@@ -1,6 +1,6 @@
 # GitHub Deployment Guide for PDF-Flip
 
-이 문서는 `pdf-flip` 프로젝트를 GitHub에 수동으로 설정하고 배포하는 단계별 가이드입니다.
+`pdf-flip` 프로젝트를 GitHub에 수동으로 설정하고 배포하는 단계별 가이드입니다.
 
 ## 1. GitHub Repository 생성 (CLI)
 
